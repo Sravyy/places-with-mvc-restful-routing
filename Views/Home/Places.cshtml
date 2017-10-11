@@ -1,0 +1,17 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>Favorite Places</h1>
+<ul>
+  @foreach(var place in Model)
+  {
+   <li><a href='/places/@place.GetId()'>@place.GetPlacefav() </a></li>
+
+  }
+</ul>
+<p><a href="/places/new">Add New place</a></p>
+
+<form action="/place/list/clear" method="post">
+  <button type="submit" name="button">Clear All Places</button>
+</form>

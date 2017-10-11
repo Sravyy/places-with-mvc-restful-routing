@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/places/bin/Debug/netcoreapp1.1/place.deps.json
+/Users/Guest/Desktop/places/bin/Debug/netcoreapp1.1/place.runtimeconfig.json
+/Users/Guest/Desktop/places/bin/Debug/netcoreapp1.1/place.runtimeconfig.dev.json
+/Users/Guest/Desktop/places/obj/Debug/netcoreapp1.1/place.AssemblyInfo.cs
+/Users/Guest/Desktop/places/bin/Debug/netcoreapp1.1/place.dll
+/Users/Guest/Desktop/places/bin/Debug/netcoreapp1.1/place.pdb
+/Users/Guest/Desktop/places/obj/Debug/netcoreapp1.1/place.dll
+/Users/Guest/Desktop/places/obj/Debug/netcoreapp1.1/place.pdb

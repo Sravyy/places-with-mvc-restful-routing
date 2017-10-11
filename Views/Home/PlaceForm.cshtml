@@ -1,0 +1,15 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>Favorite Places</h1>
+<h3>Add a new Place:</h3>
+<form action='/places' method='post'>
+  <label for='new-placefav'>Place Name</label>
+  <input id='new-placefav' name='new-placefav' type='text'>
+  <label for='new-city'>City Name</label>
+  <input id='new-city' name='new-city' type='text'>
+  <label for='new-stay'>Tenor of Stay</label>
+  <input id='new-stay' name='new-stay' type='number'>
+  <button type='submit'>Add Place</button>
+</form>
