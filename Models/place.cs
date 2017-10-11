@@ -7,14 +7,16 @@ namespace FavPlace.Models
     private string _placefav;
     private string _city;
     private int _stay;
+    private string _pic;
     private int _id;
     private static List<Place> _instances = new List<Place> {};
 
-    public Place (string placefav,string city,int stay)
+    public Place (string placefav,string city,int stay,string pic)
     {
       _placefav = placefav;
       _city = city;
       _stay = stay;
+      _pic = pic;
       _instances.Add(this);
       _id = _instances.Count;
     }
@@ -41,6 +43,14 @@ namespace FavPlace.Models
     public void SetStay(int newStay)
     {
       _stay = newStay;
+    }
+    public string GetPic()
+    {
+      return _pic;
+    }
+    public void SetPic(string newPic)
+    {
+      _pic = newPic;
     }
     public int GetId()
    {

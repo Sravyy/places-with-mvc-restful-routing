@@ -2,7 +2,10 @@
   Layout = "_Layout";
 }
 
-<h1>Favorite Places</h1>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Favorite Places</h1>
+  </div>
 <h3>Add a new Place:</h3>
 <form action='/places' method='post'>
   <label for='new-placefav'>Place Name</label>
@@ -11,5 +14,10 @@
   <input id='new-city' name='new-city' type='text'>
   <label for='new-stay'>Tenor of Stay</label>
   <input id='new-stay' name='new-stay' type='number'>
+  <br>
+  <label for='new-pic'>Attach a Photo</label>
+  <input id='new-pic' name='new-pic' type='text'>
+  <br>
   <button type='submit'>Add Place</button>
 </form>
+</div>

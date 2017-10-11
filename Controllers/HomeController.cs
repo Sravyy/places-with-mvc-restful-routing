@@ -28,7 +28,7 @@ namespace FavPlace.Controllers
         [HttpPost("/places")]
         public ActionResult AddPlace()
         {
-            Place newPlace = new Place(Request.Form["new-placefav"],Request.Form["new-city"], int.Parse(Request.Form["new-stay"]));
+            Place newPlace = new Place(Request.Form["new-placefav"],Request.Form["new-city"], int.Parse(Request.Form["new-stay"]),Request.Form["new-pic"]);
             List<Place> allPlaces = Place.GetAll();
             return View("Places", allPlaces);
         }
