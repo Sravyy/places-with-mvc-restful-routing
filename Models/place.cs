@@ -24,33 +24,17 @@ namespace FavPlace.Models
     {
       return _placefav;
     }
-    public void SetPlacefav(string newPlacefav)
-    {
-      _placefav = newPlacefav;
-    }
     public string GetCity()
     {
       return _city;
-    }
-    public void SetCity(string newCity)
-    {
-      _city = newCity;
     }
     public int GetStay()
     {
       return _stay;
     }
-    public void SetStay(int newStay)
-    {
-      _stay = newStay;
-    }
     public string GetPic()
     {
       return _pic;
-    }
-    public void SetPic(string newPic)
-    {
-      _pic = newPic;
     }
     public int GetId()
    {
